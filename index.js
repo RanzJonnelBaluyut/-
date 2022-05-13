@@ -70,7 +70,7 @@ else if (randomImage1 === scissors && randomImage2 === rock ){
 }
 
 else {
-    document.querySelector('h1').textContent = "⚔IT'S A DRAW!";
+    document.querySelector('h1').textContent = "⚔TRY AGAIN!";
     document.querySelector('.p1').textContent = "⭕PLAYER 1 DRAW!";
     document.querySelector('.p2').textContent = "⭕PLAYER 2 DRAW!";
 }
